@@ -65,32 +65,32 @@
     "toggle-image-properties": "Alterar Propriedades da Imagem",
     "toggle-owned-attributes": "Alterar Atributos Próprios",
     "toggle-inherited-attributes": "Alterar Atributos Herdados",
-    "toggle-promoted-attributes": "Toggle Promoted Attributes",
-    "toggle-link-map": "Toggle Link Map",
-    "toggle-note-info": "Toggle Note Info",
-    "toggle-note-paths": "Toggle Note Paths",
-    "toggle-similar-notes": "Toggle Similar Notes",
-    "other": "Other",
-    "toggle-right-pane": "Toggle the display of the right pane, which includes Table of Contents and Highlights",
-    "print-active-note": "Print active note",
-    "open-note-externally": "Open note as a file with default application",
-    "render-active-note": "Render (re-render) active note",
-    "run-active-note": "Run active JavaScript (frontend/backend) code note",
-    "toggle-note-hoisting": "Toggles note hoisting of active note",
-    "unhoist": "Unhoist from anywhere",
+    "toggle-promoted-attributes": "Alternar Atributos Promovidos",
+    "toggle-link-map": "Alternar Mapa de Links",
+    "toggle-note-info": "Alternar Informações da Nota",
+    "toggle-note-paths": "Alternar Caminhos da Nota",
+    "toggle-similar-notes": "Alternar Notas Similares",
+    "other": "Outros",
+    "toggle-right-pane": "Alternar a exibição do painel direito, que inclui Sumário e Destaques",
+    "print-active-note": "Imprimir nota ativa",
+    "open-note-externally": "Abrir nota como arquivo no aplicativo padrão",
+    "render-active-note": "Renderizar (re-renderizar) nota ativa",
+    "run-active-note": "Executar código JavaScript (frontend/backend) da nota",
+    "toggle-note-hoisting": "Alternar a elevação da nota ativa",
+    "unhoist": "Desfazer elevação de tudo",
     "reload-frontend-app": "Recarregar Interface",
-    "open-dev-tools": "Abrir dev tools",
-    "toggle-left-note-tree-panel": "Toggle left (note tree) panel",
-    "toggle-full-screen": "Toggle full screen",
-    "zoom-out": "Zoom Out",
-    "zoom-in": "Zoom In",
-    "note-navigation": "Note navigation",
-    "reset-zoom-level": "Reset zoom level",
-    "copy-without-formatting": "Copy selected text without formatting",
-    "force-save-revision": "Force creating / saving new note revision of the active note",
-    "show-help": "Shows built-in Help / cheatsheet",
-    "toggle-book-properties": "Toggle Book Properties",
-    "toggle-classic-editor-toolbar": "Toggle the Formatting tab for the editor with fixed toolbar"
+    "open-dev-tools": "Abrir ferramentas de desenvolvedor",
+    "toggle-left-note-tree-panel": "Alternar painel esquerdo (árvore de notas)",
+    "toggle-full-screen": "Alternar para tela cheia",
+    "zoom-out": "Diminuir zoom",
+    "zoom-in": "Aumentar zoom",
+    "note-navigation": "Navegação de notas",
+    "reset-zoom-level": "Redefinir nível de zoom",
+    "copy-without-formatting": "Copiar texto selecionado sem formatação",
+    "force-save-revision": "Forçar a criação/salvamento de uma nova revisão da nota ativa",
+    "show-help": "Exibir Ajuda integrada / colinha",
+    "toggle-book-properties": "Alternar propriedades do book",
+    "toggle-classic-editor-toolbar": "Alternar a aba de Formatação no editor com barra de ferramentas fixa"
   },
   "login": {
     "title": "Login",
@@ -101,63 +101,63 @@
     "button": "Login"
   },
   "set_password": {
-    "heading": "Set password",
-    "description": "Before you can start using Trilium from web, you need to set a password first. You will then use this password to login.",
+    "heading": "Definir senha",
+    "description": "Antes de começar a usar o Trilium web, você precisa definir uma senha. Você usará essa senha para fazer login.",
     "password": "Senha",
     "password-confirmation": "Confirmar Senha",
-    "button": "Set password"
+    "button": "Definir senha"
   },
-  "javascript-required": "Trilium requires JavaScript to be enabled.",
+  "javascript-required": "Trilium precisa que JavaScript esteja habilitado.",
   "setup": {
     "heading": "TriliumNext Notes setup",
-    "new-document": "I'm a new user, and I want to create a new Trilium document for my notes",
-    "sync-from-desktop": "I have a desktop instance already, and I want to set up sync with it",
-    "sync-from-server": "I have a server instance already, and I want to set up sync with it",
-    "next": "Next",
-    "init-in-progress": "Document initialization in progress",
-    "redirecting": "You will be shortly redirected to the application.",
+    "new-document": "Sou um novo usuário e quero criar um novo documento Trilium para minhas notas",
+    "sync-from-desktop": "Já tenho uma instância no desktop e quero configurar a sincronização com ela",
+    "sync-from-server": "Já tenho uma instância no servidor e quero configurar a sincronização com ela",
+    "next": "Avançar",
+    "init-in-progress": "Inicialização do documento em andamento",
+    "redirecting": "Você será redirecionado para o aplicativo em breve.",
     "title": "Setup"
   },
   "setup_sync-from-desktop": {
-    "heading": "Sync from Desktop",
-    "description": "This setup needs to be initiated from the desktop instance:",
-    "step1": "Open your desktop instance of TriliumNext Notes.",
-    "step2": "From the Trilium Menu, click Options.",
-    "step3": "Click on Sync category.",
-    "step4": "Change server instance address to: {{- host}} and click Save.",
-    "step5": "Click \"Test sync\" button to verify connection is successful.",
-    "step6": "Once you've completed these steps, click {{- link}}.",
-    "step6-here": "here"
+    "heading": "Sincronizar com Desktop",
+    "description": "Esta configuração deve ser iniciada a partir da instância do desktop:",
+    "step1": "Abra sua instância do TriliumNext Notes no desktop.",
+    "step2": "No menu do Trilium, clique em Opções.",
+    "step3": "Clique na categoria Sincronização.",
+    "step4": "Altere o endereço da instância do servidor para: {{- host}} e clique em Salvar.",
+    "step5": "Clique no botão \"Testar sincronização\" para verificar se a conexão foi bem-sucedida.",
+    "step6": "Depois de concluir essas etapas, clique em {{- link}}.",
+    "step6-here": "Aqui"
   },
   "setup_sync-from-server": {
-    "heading": "Sync from Server",
-    "instructions": "Please enter Trilium server address and credentials below. This will download the whole Trilium document from server and setup sync to it. Depending on the document size and your connection speed, this may take a while.",
-    "server-host": "Trilium server address",
+    "heading": "Sincronizar do Servidor",
+    "instructions": "Por favor, insira abaixo o endereço e as credenciais do servidor Trilium. Isso fará o download de todo o documento Trilium do servidor e configurará a sincronização com ele. Dependendo do tamanho do documento e da velocidade da conexão, isso pode levar algum tempo.",
+    "server-host": "Endereço do servidor Trilium",
     "server-host-placeholder": "https://<hostname>:<port>",
-    "proxy-server": "Proxy server (optional)",
+    "proxy-server": "Servidor proxy (opcional)",
     "proxy-server-placeholder": "https://<hostname>:<port>",
-    "note": "Note:",
-    "proxy-instruction": "If you leave proxy setting blank, system proxy will be used (applies to the desktop application only)",
-    "password": "Password",
-    "password-placeholder": "Password",
-    "back": "Back",
-    "finish-setup": "Finish setup"
+    "note": "Nota:",
+    "proxy-instruction": "Se você deixar o campo de proxy em branco, o proxy do sistema será usado (aplicável apenas ao aplicativo desktop)",
+    "password": "Senha",
+    "password-placeholder": "Senha",
+    "back": "Voltar",
+    "finish-setup": "Terminar configuração"
   },
   "setup_sync-in-progress": {
-    "heading": "Sync in progress",
-    "successful": "Sync has been correctly set up. It will take some time for the initial sync to finish. Once it's done, you'll be redirected to the login page.",
-    "outstanding-items": "Outstanding sync items:",
+    "heading": "Sincronização em andamento",
+    "successful": "A sincronização foi configurada corretamente. Levará algum tempo para que a sincronização inicial seja concluída. Quando terminar, você será redirecionado para a página de login.",
+    "outstanding-items": "Itens de sincronização pendentes:",
     "outstanding-items-default": "N/A"
   },
   "share_404": {
-    "title": "Not found",
-    "heading": "Not found"
+    "title": "Não encontrado",
+    "heading": "Não encontrado"
   },
   "share_page": {
-    "parent": "parent:",
-    "clipped-from": "This note was originally clipped from {{- url}}",
-    "child-notes": "Child notes:",
-    "no-content": "This note has no content."
+    "parent": "pai:",
+    "clipped-from": "Esta nota foi originalmente extraída de {{- url}}",
+    "child-notes": "Notas filhas:",
+    "no-content": "Esta nota não possui conteúdo."
   },
   "weekdays": {
     "monday": "Segunda-feira",
@@ -186,12 +186,12 @@
     "search_prefix": "Pesquisar:"
   },
   "code_block": {
-    "theme_none": "No syntax highlighting",
+    "theme_none": "Sem destaque de sintaxe",
     "theme_group_light": "Temas claros",
     "theme_group_dark": "Temas escuros"
   },
   "test_sync": {
-    "not-configured": "Sync server host is not configured. Please configure sync first.",
-    "successful": "Sync server handshake has been successful, sync has been started."
+    "not-configured": "O host do servidor de sincronização não está configurado. Por favor, configure a sincronização primeiro.",
+    "successful": "A comunicação com o servidor de sincronização foi bem-sucedida, a sincronização foi iniciada."
   }
 }
